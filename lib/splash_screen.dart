@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
@@ -33,7 +34,8 @@ class _SplashScreenState extends BaseState<SplashScreen> {
       } else {
         //await subscribeUnSubscribeTopicToFirebase(userId, isUnSubscribe: true);
         //Get.offAll(() => const LoginScreen(), transition: sendTransition);
-        Get.off(() => const WelcomePage(), transition: sendTransition);
+        Timer(const Duration(seconds: 3), navigationPageIntro);
+
       }
     } catch (e) {
       EasyLoading.showError(e.toString());
@@ -144,5 +146,9 @@ class _SplashScreenState extends BaseState<SplashScreen> {
         },
       );
     }
+  }
+
+  void navigationPageIntro() {
+    Get.off(() => const WelcomePage(), transition: sendTransition);
   }
 }

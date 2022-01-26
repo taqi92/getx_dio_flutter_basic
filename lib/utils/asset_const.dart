@@ -14,21 +14,12 @@ const googleLogoSvg = logoAssetPath + 'google_logo.svg';
 const userPlaceholderAsset = imageAssetPath + 'user_placeholder.png';
 const profileIconSvg = iconAssetPath + 'profile_icon.svg';
 const customEmailIconSvg = iconAssetPath + 'email_icon.svg';
-const splashLogoAsset = iconAssetPath + 'rida_splash_logo.png';
 const phoneIconSvg = iconAssetPath + 'phone_custom_icon.svg';
 const uploadIconSvg = iconAssetPath + 'upload_custom_icon.svg';
-const companyIconSvg = iconAssetPath + 'company_custom_icon.svg';
-const generalBoxIconSvg = iconAssetPath + 'general_box_custom_icon.svg';
-const foodBoxIconSvg = iconAssetPath + 'food_custom_icon.svg';
-const giftBoxIconSvg = iconAssetPath + 'gift_custom_icon.svg';
-const healthIconSvg = iconAssetPath + 'health_custom_icon.svg';
 const locationCustomIconSvg = iconAssetPath + 'location_custom_icon.svg';
 const senderCustomIconSvg = iconAssetPath + 'user_custom_icon.svg';
 const datePickerIconSvg = iconAssetPath + 'date_picker_custom_icon.svg';
 const timePickerIconSvg = iconAssetPath + 'time_picker_icon.svg';
-const bikeIconAssetSvg = iconAssetPath + 'bike_custom_icon.svg';
-const carIconAssetSvg = iconAssetPath + 'car_custom_icon.svg';
-const vanIconAssetSvg = iconAssetPath + 'covered_van_custom_icon.svg';
 const editIconSvg = iconAssetPath + 'edit_custom_icon.svg';
 const deleteIconSvg = iconAssetPath + 'delete_custom_icon.svg';
 const demoMapSvg = iconAssetPath + 'demo_map.svg';
@@ -59,9 +50,4 @@ const languageSvg = iconAssetPath + 'language_icon.svg';
 const searchIconSvg = iconAssetPath + 'search.svg';
 const calendarIconSvg = iconAssetPath + 'calendar.svg';
 const mailDisableIconSvg = iconAssetPath + 'mail_disabled_icon.svg';
-
-
-const visaLogo = logoAssetPath + 'visa_logo.jpg';
-const amexLogo = logoAssetPath + 'amex_logo.jpg';
-const mastercardLogo = logoAssetPath + 'mastercard_logo.jpg';
 /*asset start*/
