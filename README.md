@@ -1,16 +1,17 @@
 # basic_flutter_project_getx_dio
 
-A new Flutter project.
+A basic Flutter project for initializing project with DIO package & getX.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Copy project link & paste to import from VCS in IDE
 
-A few resources to get you started if this is your first Flutter project:
+### Project consists
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+GETX library for state managment
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+DIO for network calling
+
+Connectivity for internet checking
+
+Sucure storage FOR JWT saving
